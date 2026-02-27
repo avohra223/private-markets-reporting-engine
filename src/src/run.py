@@ -7,7 +7,7 @@ SHEETS = ["Funds", "Investors", "Commitments", "Transactions", "NAV_Quarterly"]
 
 def load_workbook():
     base_path = Path(__file__).resolve().parent.parent
-    file_path = base_path / "data" / "sample_data.xlsx"
+    file_path = base_path / "data" / "Private Markets Data and Reporting.xlsx"
 
     print(f"Loading workbook from: {file_path}")
 
